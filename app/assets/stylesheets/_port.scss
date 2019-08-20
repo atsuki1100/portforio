@@ -1,0 +1,79 @@
+.contents {
+  background-image:url(sinpi.jpg);
+  background-position: center center; 
+  object-fit: cover; 
+  &__left {
+    width: 40vw;
+    height: 100vh;
+    float: left;
+    background-color: rgba(123, 125, 128, 0.452);
+    .myname {
+      margin: 100px 0 0 50px;
+      color: rgb(182, 182, 182);
+      font-size: 300%;
+      font-weight: 600;
+    }
+    .introduction {
+      margin: 100px 0 0 50px;
+      color: rgb(182, 182, 182);
+      font-size: 130%;
+    }
+    .conect {
+      margin: 0 0 70px 50px;
+      color: rgb(182, 182, 182);
+      position: absolute;
+      bottom: 0;
+    }
+  }
+  &__right {
+    width: 60vw;
+    height: 100vh;
+    float: left;
+    background-color: rgba(123, 125, 128, 0.452);
+    position: relative;
+    .works {
+      width: 250px;
+      height: 350px;
+      background-color: rgb(223, 106, 106);
+      border-radius: 4px;
+      position: absolute; 
+      top: 180px;
+      left: 60px;
+      border-bottom: solid 6px #3b1111;
+      border-left: solid 6px #221b22;
+    }
+    .works::before {
+      content: '';
+      display: block;
+      margin-left: 3px;
+      width: 3px;
+      height: 350px;
+      background: rgb(3, 0, 0);
+    }
+    .about {
+      width: 250px;
+      height: 350px;
+      background-color: rgb(201, 141, 209);
+      border-radius: 4px;
+      position: absolute; 
+      top: 180px;
+      left: 460px;
+      border-bottom: solid 6px #381938;
+      border-left: solid 6px #221b22;
+    }
+    .about::before {
+      content: '';
+      display: block;
+      margin-left: 3px;
+      width: 3px;
+      height: 350px;
+      background: rgb(68, 18, 18);
+    }
+  }
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
