@@ -3,23 +3,24 @@
 }
 
 .contents {
-  background-image:url(sinpi.jpg);
-  background-position: center center; 
-  object-fit: cover; 
+  background-image:url(mokuzai.jpg);
+  // background-position: center center; 
+  background-size: cover;
   &__left {
     width: 40vw;
     height: 100vh;
     float: left;
     .myname {
       margin: 100px 0 0 50px;
-      color: rgb(202, 194, 194);
-      font-size: 300%;
+      color: rgb(103, 187, 48);
+      font-size: 350%;
       font-weight: 600;
     }
     .introduction {
-      margin: 100px 0 0 50px;
-      color: rgb(202, 194, 194);
+      margin: 150px 0 0 50px;
+      color: rgb(192, 105, 65);
       font-size: 130%;
+      font-weight: 600;
     }
     .conect {
       margin: 0 0 70px 50px;
@@ -79,7 +80,7 @@
     .about {
       width: 250px;
       height: 350px;
-      background-color: rgb(150, 113, 65);
+      background-color: rgb(150, 78, 65);
       border-radius: 4px;
       position: absolute; 
       top: 180px;
@@ -125,9 +126,11 @@
 .books {
   width: 100vw;
   height: 100vh;
-  background-image:url(sinpi.jpg);
-  background-position: center center; 
-  object-fit: cover;
+  background-image:url(mokuzai.jpg);
+  // background-position: center center; 
+  background-size: cover;
+  position: relative;
+  z-index: 1;
   .book {
     width: 1000px;
     height: 600px;
@@ -135,6 +138,7 @@
     position: relative;
     top: 70px;
     left: 400px;
+    border-radius: 2px;
     .table-content {
       width: 100%;
       height: 100%;
@@ -143,7 +147,8 @@
         height: 100%;
         padding: 40px 20px;
         background-color: rgb(56, 60, 97);
-        float: left
+        float: left;
+        border-radius: 2px 0 0 2px;
       }
       .mokuji {
         width: 50%;
@@ -179,6 +184,7 @@
         height: 100%;
         padding: 40px 20px;
         float: left;
+        border-radius: 4px;
         .fa-angle-right {
           position: absolute;
           right: 10px;
@@ -237,9 +243,40 @@
         height: 100%;
         padding: 40px 20px;
         background-color: rgb(56, 60, 97);
-        float: left
+        float: left;
+        border-radius: 0 2px 2px 0;
       }
     }
+  }
+  .book:before, .book:after
+  {
+    position: absolute;
+    z-index: -2;
+    content: "";
+    bottom: 12px;
+    left: 10px;
+    width: 80%;
+    top: 80%;
+    max-width:800px;
+    background: rgb(36, 36, 36);
+    -webkit-box-shadow: 0 15px 10px rgb(46, 46, 46);
+    -moz-box-shadow: 0 15px 10px rgb(51, 51, 51);
+    box-shadow: 0 15px 10px rgb(49, 49, 49);
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-1.5deg);
+  }
+  .book:after
+  {
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(1.5deg);
+    right: 10px;
+    left: auto;
   }
 }
 
