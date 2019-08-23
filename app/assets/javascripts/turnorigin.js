@@ -1,0 +1,26 @@
+$(document).on('turbolinks:load', function(){
+  $('.right1').click(function(){
+    $('.table-content').hide();
+    $('.content-1').show();
+  });
+  $('.right2').click(function(){
+    $('.content-1').hide();
+    $('.content-2').show();
+  });
+  $('.right3').click(function(){
+    $('.content-2').hide();
+    $('.afterword').show();
+  });
+  $('.left1').click(function(){
+    $('.content-1').hide();
+    $('.table-content').show();
+  });
+  $('.left2').click(function(){
+    $('.content-2').hide();
+    $('.content-1').show();
+  });
+  $('.left3').click(function(){
+    $('.afterword').hide();
+    $('.content-2').show();
+  });
+});

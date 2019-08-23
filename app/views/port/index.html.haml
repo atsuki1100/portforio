@@ -6,8 +6,12 @@
       %p 湯川 淳輝と申します。
       %br
       %p このサイトはポートフォリオです。
-    .conect
-      ツイッター
   .contents__right
-    .works
-    .about
+    =link_to works_port_index_path do
+      .works
+        .works__text works
+        .works__auther 湯川淳輝 著
+    =link_to about_port_index_path do
+      .about
+        .about__text about
+        .about__auther 湯川淳輝 著
