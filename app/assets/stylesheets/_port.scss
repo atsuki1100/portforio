@@ -149,12 +149,14 @@
         background-color: rgb(56, 60, 97);
         float: left;
         border-radius: 2px 0 0 2px;
+        border-right: solid 3px #221b222a;
       }
       .mokuji {
         width: 50%;
         height: 100%;
         padding: 40px 20px;
         float: left;
+        border-left: solid 3px #221b222a;
         .fa-angle-right {
           position: absolute;
           right: 10px;
@@ -172,6 +174,7 @@
         height: 100%;
         padding: 40px 20px;
         float: left;
+        border-right: solid 3px #221b222a;
         .fa-angle-left {
           position: absolute;
           left: 10px;
@@ -185,6 +188,7 @@
         padding: 40px 20px;
         float: left;
         border-radius: 4px;
+        border-left: solid 3px #221b222a;
         .fa-angle-right {
           position: absolute;
           right: 10px;
@@ -202,6 +206,7 @@
         height: 100%;
         padding: 40px 20px;
         float: left;
+        border-right: solid 3px #221b222a;
         .fa-angle-left {
           position: absolute;
           left: 10px;
@@ -214,6 +219,7 @@
         height: 100%;
         padding: 40px 20px;
         float: left;
+        border-left: solid 3px #221b222a;
         .fa-angle-right {
           position: absolute;
           right: 10px;
@@ -231,6 +237,7 @@
         height: 100%;
         padding: 40px 20px;
         float: left;
+        border-right: solid 3px #221b222a;
         .fa-angle-left {
           position: absolute;
           left: 10px;
@@ -245,6 +252,7 @@
         background-color: rgb(56, 60, 97);
         float: left;
         border-radius: 0 2px 2px 0;
+        border-left: solid 3px #221b222a;
       }
     }
   }
