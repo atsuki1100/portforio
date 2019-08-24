@@ -171,6 +171,13 @@
         float: left;
         border-radius: 2px 0 0 2px;
         border-right: solid 3px #221b222a;
+        .works_text {
+          font-size: 600%;
+          color: rgb(202, 194, 194);
+          position: relative; 
+          top: 200px;
+          left: 75px;
+        }
       }
       .about {
         width: 50%;
@@ -296,6 +303,16 @@
         float: left;
         border-radius: 0 2px 2px 0;
         border-left: solid 3px #221b222a;
+        position: relative;
+        .works_text {
+          font-size: 600%;
+          max-width: 100%;
+          color: rgb(202, 194, 194);
+          position: absolute; 
+          top: 170px;
+          left: 20px;
+          text-align: center;
+        }
       }
       .about {
         width: 50%;
