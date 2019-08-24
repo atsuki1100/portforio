@@ -1,15 +1,18 @@
 .books.clearfix
+  =link_to "TOP", "/",class: "top"
+  .mokuji-nal もくじへ
   .book
     .table-content
       .bookcover.works
       .mokuji
         %h2 ~~もくじ~~
-        %p メルカリコピーサイト(チーム開発)
-        %p 天の声(質問投稿サイト)
-        %p あとがき
+        %ul
+          %p.merucari ・メルカリコピーサイト(チーム開発)
+          %p.tennokoe ・天の声(質問投稿サイト)
+          %p.atogaki-mokuji ・あとがき
         %i.fas.fa-angle-right.fa-4x.right1
 
-    .content-1
+    .content-1.mokujihe
       .page1
         %h2 メルカリコピーサイト(チーム開発)
         %p image
@@ -17,7 +20,7 @@
       .page2
         %p 楽しかったし、勉強になったよん。
         %i.fas.fa-angle-right.fa-4x.right2
-    .content-2
+    .content-2.mokujihe
       .page1
         %h2 天の声（質問投稿サイト)
         %p image
@@ -29,7 +32,7 @@
         %br
         %p railsがちょっとずつ分かってきたのもこのアプリを作ってる時ぐらいから。
         %i.fas.fa-angle-right.fa-4x.right3
-    .afterword
+    .afterword.mokujihe
       .atogaki
         %p あとがき
         %i.fas.fa-angle-left.fa-4x.left3

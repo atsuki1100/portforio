@@ -131,6 +131,27 @@
   background-size: cover;
   position: relative;
   z-index: 1;
+  .top {
+    font-size: 400%;
+    font-weight: 600;
+    color: red;
+    position: fixed;
+    left: 100px;
+    top: 100px;
+    text-decoration: none;
+  }
+  .mokuji-nal {
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    position: fixed;
+    top: 350px;
+    left: 150px;
+    font-size: 200%;
+    font-weight: 600;
+    color: rgb(103, 187, 48);
+    display: none;
+    cursor: pointer;
+  }
   .book {
     width: 1000px;
     height: 600px;
@@ -151,6 +172,15 @@
         border-radius: 2px 0 0 2px;
         border-right: solid 3px #221b222a;
       }
+      .about {
+        width: 50%;
+        height: 100%;
+        padding: 40px 20px;
+        background-color: rgb(150, 78, 65);
+        float: left;
+        border-radius: 0 2px 2px 0;
+        border-right: solid 3px #221b222a;
+      }
       .mokuji {
         width: 50%;
         height: 100%;
@@ -162,6 +192,19 @@
           right: 10px;
           bottom: 10px;
           cursor: e-resize;
+        }
+        h2 {
+          text-align: center;
+          font-size: 200%;
+          margin-top: 20px;
+        }
+        ul {
+          margin-top: 60px;
+          margin-left: 100px;
+          p {
+            margin-top: 20px;
+            cursor: pointer;
+          }
         }
       }
     }
@@ -250,6 +293,15 @@
         height: 100%;
         padding: 40px 20px;
         background-color: rgb(56, 60, 97);
+        float: left;
+        border-radius: 0 2px 2px 0;
+        border-left: solid 3px #221b222a;
+      }
+      .about {
+        width: 50%;
+        height: 100%;
+        padding: 40px 20px;
+        background-color: rgb(150, 78, 65);
         float: left;
         border-radius: 0 2px 2px 0;
         border-left: solid 3px #221b222a;
