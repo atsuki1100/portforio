@@ -10,6 +10,18 @@ $(document).on('turbolinks:load', function(){
   });
   $('.right3').click(function(){
     $('.content-2').hide();
+    $('.content-3').fadeIn("slow");
+  });
+  $('.right4').click(function(){
+    $('.content-3').hide();
+    $('.content-4').fadeIn("slow");
+  });
+  $('.right5').click(function(){
+    $('.content-4').hide();
+    $('.content-5').fadeIn("slow");
+  });
+  $('.right6').click(function(){
+    $('.content-5').hide();
     $('.afterword').fadeIn("slow");
   });
   $('.left1').click(function(){
@@ -22,8 +34,20 @@ $(document).on('turbolinks:load', function(){
     $('.content-1').fadeIn("slow");
   });
   $('.left3').click(function(){
-    $('.afterword').hide();
+    $('.content-3').hide();
     $('.content-2').fadeIn("slow");
+  });
+  $('.left4').click(function(){
+    $('.content-4').hide();
+    $('.content-3').fadeIn("slow");
+  });
+  $('.left5').click(function(){
+    $('.content-5').hide();
+    $('.content-4').fadeIn("slow");
+  });
+  $('.left6').click(function(){
+    $('.afterword').hide();
+    $('.content-5').fadeIn("slow");
   });
   $('.merucari').on('mouseover', function(){
     $('.merucari').css({'color':'blue',"font-size":"110%"})
@@ -46,14 +70,17 @@ $(document).on('turbolinks:load', function(){
   $('.merucari').click(function(){
     $('.table-content').hide();
     $('.content-1').fadeIn("slow");
+    $('.mokuji-nal').fadeIn("slow");
   })
   $('.tennokoe').click(function(){
     $('.table-content').hide();
     $('.content-2').fadeIn("slow");
+    $('.mokuji-nal').fadeIn("slow");
   })
   $('.atogaki-mokuji').click(function(){
     $('.table-content').hide();
     $('.afterword').fadeIn("slow");
+    $('.mokuji-nal').fadeIn("slow");
   })
   $('.mokuji-nal').click(function(){
     $('.mokujihe').hide();
