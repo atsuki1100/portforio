@@ -12,6 +12,10 @@ $(document).on('turbolinks:load', function(){
     $('.content-2').hide();
     $('.content-3').fadeIn("slow");
   });
+  $('.right3-work').click(function(){
+    $('.content-2').hide();
+    $('.afterword').fadeIn("slow");
+  });
   $('.right4').click(function(){
     $('.content-3').hide();
     $('.content-4').fadeIn("slow");
@@ -67,6 +71,24 @@ $(document).on('turbolinks:load', function(){
   $('.atogaki-mokuji').on('mouseout', function(){
     $('.atogaki-mokuji').css({'color':'#000',"font-size":"100%"})
   });
+  $('.intaladuction').on('mouseover', function(){
+    $('.intaladuction').css({'color':'blue',"font-size":"110%"})
+  });
+  $('.intaladuction').on('mouseout', function(){
+    $('.intaladuction').css({'color':'#000',"font-size":"100%"})
+  });
+  $('.kanren').on('mouseover', function(){
+    $('.kanren').css({'color':'blue',"font-size":"110%"})
+  });
+  $('.kanren').on('mouseout', function(){
+    $('.kanren').css({'color':'#000',"font-size":"100%"})
+  });
+  $('.skil').on('mouseover', function(){
+    $('.skil').css({'color':'blue',"font-size":"110%"})
+  });
+  $('.skil').on('mouseout', function(){
+    $('.skil').css({'color':'#000',"font-size":"100%"})
+  });
   $('.merucari').click(function(){
     $('.table-content').hide();
     $('.content-1').fadeIn("slow");
@@ -80,6 +102,21 @@ $(document).on('turbolinks:load', function(){
   $('.atogaki-mokuji').click(function(){
     $('.table-content').hide();
     $('.afterword').fadeIn("slow");
+    $('.mokuji-nal').fadeIn("slow");
+  })
+  $('.intaladuction').click(function(){
+    $('.table-content').hide();
+    $('.content-1').fadeIn("slow");
+    $('.mokuji-nal').fadeIn("slow");
+  })
+  $('.kanren').click(function(){
+    $('.table-content').hide();
+    $('.content-4').fadeIn("slow");
+    $('.mokuji-nal').fadeIn("slow");
+  })
+  $('.skil').click(function(){
+    $('.table-content').hide();
+    $('.content-4').fadeIn("slow");
     $('.mokuji-nal').fadeIn("slow");
   })
   $('.mokuji-nal').click(function(){

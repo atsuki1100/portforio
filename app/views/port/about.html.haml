@@ -6,9 +6,10 @@
       .bookcover.about
       .mokuji
         %h2 ~~もくじ~~
-        %p 自己紹介
-        %p 関連情報
-        %p スキル
+        %ul
+          %p.intaladuction ・自己紹介
+          %p.kanren ・関連情報
+          %p.skil ・スキル
         %i.fas.fa-angle-right.fa-4x.right1
 
     .content-1.mokujihe
@@ -113,9 +114,29 @@
     .content-4.mokujihe
       .page1
         .about-messe
+          %h2 関連情報
+          %p 携帯電話
+          %p 080-5473-0768
+          %br
+          %p メールアドレス
+          %p atsuki.yukawa1100@gmail.com
+          %br
+          %p github
+          =link_to 'https://github.com/atsuki1100', 'https://github.com/atsuki1100', style: 'display: block;'
+          %br
+          %p Twitter
+          =link_to 'https://twitter.com/atuki_freelance', 'https://twitter.com/atuki_freelance', style: 'display: block;'
+          %br
+          %p ブログ
+          =link_to 'https://atuki1100.hatenablog.com/archive/2019', 'https://atuki1100.hatenablog.com/archive/2019', style: 'display: block;'
+          %br Qiita
+          =link_to 'https://qiita.com/atuki_freelance', 'https://qiita.com/atuki_freelance', style: 'display: block;'
+
         %i.fas.fa-angle-left.fa-4x.left4
       .page2
         .about-messe
+          %h2 スキル
+
         %i.fas.fa-angle-right.fa-4x.right5
 
     .content-5.mokujihe
