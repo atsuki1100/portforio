@@ -10,32 +10,75 @@
         %ul
           %p.merucari ・メルカリコピーサイト(チーム開発)
           %p.tennokoe ・天の声(質問投稿サイト)
-          %p.atogaki-mokuji ・あとがき
+          -# %p.atogaki-mokuji ・あとがき
         %i.fas.fa-angle-right.fa-4x.right1
 
     .content-1.mokujihe
       .page1
-        %h2 メルカリコピーサイト(チーム開発)
-        %p image
-        %i.fas.fa-angle-left.fa-4x.left1
+        .works-messe
+          %h2{style: 'margin-bottom: 0;'} メルカリコピーサイト
+          %h2 (チーム開発)
+          =image_tag 'mercari.jpg',size: '450x220'
+          %br
+          %br
+          %p チームでメルカリのコピーサイトを作りました。
+          %br
+          %p 僕が担当した箇所や感想などは最終課題説明文に記載しております。
+          %i.fas.fa-angle-left.fa-4x.left1
       .page2
-        %p 楽しかったし、勉強になったよん。
-        %i.fas.fa-angle-right.fa-4x.right2
+        .works-messe
+          %p 最終課題説明文
+          =link_to "こちら", "https://docs.google.com/document/d/1We4XRCxL-nKgyg7je-VINWkforc3UnwvUj0E8MJEF4U/edit?usp=sharing", style: 'display: block;'
+          %br
+          %p すぐにサイトをみてみる。
+          =link_to "こちら", "http://52.194.206.221/", style: 'display: block;'
+          %p (id:admin,pass:2222, 新規登録、ログインは最終課題説明文に書いてある通りにおこなってください。)
+          %br
+          %p github
+          =link_to "こちら", "https://github.com/atsuki1100/freemarket_sample_55b", style: 'display: block;'
+          %br
+          %br
+          %br
+          %p このサイトはアジャイル開発で５人チームで開発いたしました。
+          %p このチーム開発を通して、タスク管理の重要性、コミュニケーションの重要性、github管理能力を身に付けることができました。
+          %br
+          %p 他にも個人として、新しい機能を実装するときのスピードが上がったり、エラーに直面しても冷静に調べて対応することができるようになりました。
+
+          %i.fas.fa-angle-right.fa-4x.right2
     .content-2.mokujihe
       .page1
-        %h2 天の声（質問投稿サイト)
-        %p image
-        %i.fas.fa-angle-left.fa-4x.left2
+        .works-messe
+          %h2 天の声（質問投稿サイト)
+          =image_tag 'tennokoe.jpg',size: '450x220', style: 'display: block;'
+          %br
+          %p ~~サイト名~~
+          %p 天の声
+          %br
+          %p ~~どういうサイトか~~
+          %p 質問投稿サイト
+          %br
+          %p Visit This Site!!
+          %p ↓
+          =link_to "こちら", "https://tennokoe.herokuapp.com/", style: 'display: block;'
+
+          %i.fas.fa-angle-left.fa-4x.left2
       .page2
-        %p 初めて作った個人制作物!
-        %br
-        %p 思い出が詰まっています。
-        %br
-        %p railsがちょっとずつ分かってきたのもこのアプリを作ってる時ぐらいから。
-        %i.fas.fa-angle-right.fa-4x.right3-work
+        .works-messe
+          %p 初めて作った個人制作物!
+          %br
+          %p 思い出が詰まっています。
+          %br
+          %p railsがちょっとずつ分かってきたのもこのアプリを作ってる時ぐらいから。
+          %p とりあえずrailsでできること盛りだくさんにしよう!と思い、機能をたくさんつけました!
+          %p ランキング機能、いいね機能、あと色々です。
+          %br
+          %p このサイトでは一つ一つの機能を深くするというよりも、浅くてもいいからできる限り多く機能をつけることを重点に置いていました。
+          %br
+          =image_tag 'tennokoe-mypage.jpg',size: '450x220', style: 'display: block;'
+          %i.fas.fa-angle-right.fa-4x.right3-work
     .afterword.mokujihe
       .atogaki
-        %p あとがき
-        %i.fas.fa-angle-left.fa-4x.left3
+        .works-messe
+          %i.fas.fa-angle-left.fa-4x.left3-works
       .bookcover.works
         .works_text thank you!

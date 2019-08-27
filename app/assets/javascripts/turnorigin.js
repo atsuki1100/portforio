@@ -41,6 +41,10 @@ $(document).on('turbolinks:load', function(){
     $('.content-3').hide();
     $('.content-2').fadeIn("slow");
   });
+  $('.left3-works').click(function(){
+    $('.afterword').hide();
+    $('.content-2').fadeIn("slow");
+  });
   $('.left4').click(function(){
     $('.content-4').hide();
     $('.content-3').fadeIn("slow");
