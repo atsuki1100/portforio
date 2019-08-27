@@ -25,7 +25,7 @@ $(document).on('turbolinks:load', function(){
     $('.content-5').fadeIn("slow");
   });
   $('.right6').click(function(){
-    $('.content-5').hide();
+    $('.content-4').hide();
     $('.afterword').fadeIn("slow");
   });
   $('.left1').click(function(){
@@ -51,7 +51,7 @@ $(document).on('turbolinks:load', function(){
   });
   $('.left6').click(function(){
     $('.afterword').hide();
-    $('.content-5').fadeIn("slow");
+    $('.content-4').fadeIn("slow");
   });
   $('.merucari').on('mouseover', function(){
     $('.merucari').css({'color':'blue',"font-size":"110%"})

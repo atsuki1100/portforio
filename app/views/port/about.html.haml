@@ -4,6 +4,7 @@
   .book
     .table-content
       .bookcover.about
+        .about_text about
       .mokuji
         %h2 ~~もくじ~~
         %ul
@@ -136,19 +137,22 @@
       .page2
         .about-messe
           %h2 スキル
+          %canvas#myChart{:height => "400", :width => "400"}
+          :javascript
+            draw_graph();
 
-        %i.fas.fa-angle-right.fa-4x.right5
-
-    .content-5.mokujihe
-      .page1
-        .about-messe
-        %i.fas.fa-angle-left.fa-4x.left5
-      .page2
-        .about-messe
         %i.fas.fa-angle-right.fa-4x.right6
+
+    -# .content-5.mokujihe
+    -#   .page1
+    -#     .about-messe
+    -#     %i.fas.fa-angle-left.fa-4x.left5
+    -#   .page2
+    -#     .about-messe
+    -#     %i.fas.fa-angle-right.fa-4x.right6
       
     .afterword.mokujihe
       .atogaki
-        %p あとがき
         %i.fas.fa-angle-left.fa-4x.left6
       .bookcover.about
+        .about_text thank you!
