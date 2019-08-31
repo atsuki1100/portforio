@@ -39,10 +39,13 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'haml-rails', "~> 2.0"
 gem "jquery-rails"
 gem 'font-awesome-sass', '5.3.1'
+gem 'chart-js-rails', '~> 0.1.4'
+gem 'pg'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'sqlite3'
 end
 
 group :development do
