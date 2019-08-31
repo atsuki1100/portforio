@@ -52,3 +52,6 @@ production:
   database: portforio_production
   username: portforio
   password: <%= ENV['PORTFORIO_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
