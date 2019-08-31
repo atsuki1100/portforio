@@ -128,4 +128,22 @@ $(document).on('turbolinks:load', function(){
     $('.table-content').fadeIn("slow");
     $('.mokuji-nal').fadeOut("slow");
   })
+
+  $('.works').on('mouseover', function(){
+    $('.works')
+      .animate({'top': '140px'},{'duration': 100,});
+  })
+  $('.works').on('mouseout', function(){
+    $('.works')
+      .animate({'top': '180px'},{'duration': 100,});
+  })
+
+  $('.about').on('mouseover', function(){
+    $('.about')
+      .animate({'top': '140px'},{'duration': 100,});
+  })
+  $('.about').on('mouseout', function(){
+    $('.about')
+      .animate({'top': '180px'},{'duration': 100,});
+  })
 });

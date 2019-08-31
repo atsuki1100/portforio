@@ -493,6 +493,17 @@
   }
 }
 
+.float-book {
+  animation: float_6907 3s linear infinite;
+  transform-origin: 50% 50%;
+}
+@keyframes float-book_6907 {
+  0% { transform: translateY(0) }
+  33.33333% { transform: translateY(-6px) }
+  66.66667% { transform: translateY(0) }
+  100% { transform: translateY(0) }
+}
+
 .clearfix::after {
   content: "";
   display: block;
