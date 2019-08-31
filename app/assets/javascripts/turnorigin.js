@@ -129,21 +129,21 @@ $(document).on('turbolinks:load', function(){
     $('.mokuji-nal').fadeOut("slow");
   })
 
-  $('.works').on('mouseover', function(){
-    $('.works')
+  $('.boin_works').on('mouseover', function(){
+    $('.boin_works')
       .animate({'top': '140px'},{'duration': 100,});
   })
-  $('.works').on('mouseout', function(){
-    $('.works')
+  $('.boin_works').on('mouseout', function(){
+    $('.boin_works')
       .animate({'top': '180px'},{'duration': 100,});
   })
 
-  $('.about').on('mouseover', function(){
-    $('.about')
+  $('.boin_about').on('mouseover', function(){
+    $('.boin_about')
       .animate({'top': '140px'},{'duration': 100,});
   })
-  $('.about').on('mouseout', function(){
-    $('.about')
+  $('.boin_about').on('mouseout', function(){
+    $('.boin_about')
       .animate({'top': '180px'},{'duration': 100,});
   })
 });
